@@ -40,7 +40,7 @@
 1. Клонируйте репозиторий:
 
    ```bash
-   git clone https://github.com/tortikghst/Osnovi_algoritmiii-program.git
+   https://github.com/timatsigankov1911-arch/alg-prog
    ```
 
 2. Перейдите в нужную папку:
