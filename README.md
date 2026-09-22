@@ -77,7 +77,7 @@
 
 ## 👤 Автор
 
-**Na1den** — [GitHub](https://github.com/tortikghst)
+**Na1den** — [GitHub](https://github.com/timatsigankov1911-arch)
 
 ---
 
