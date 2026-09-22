@@ -27,6 +27,8 @@
 
 ## 👤 Автор
 
+Цыганков Тимофей ИСПк 204-52-00
+
 **Na1den** — [GitHub](https://github.com/timatsigankov1911-arch)
 
 ---
