@@ -4,8 +4,6 @@
 
 **Учебный репозиторий с лабораторными работами и практикой**
 
-![Made with love](https://img.shields.io/badge/Made%20with-love-pink.svg)
-
 </div>
 
 ---
@@ -79,7 +77,7 @@
 
 ## 👤 Автор
 
-**tortikghst** — [GitHub](https://github.com/tortikghst)
+**Na1den** — [GitHub](https://github.com/tortikghst)
 
 ---
 
