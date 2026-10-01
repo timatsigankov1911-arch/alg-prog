@@ -207,12 +207,5 @@ def task6_3():
             total_sum += int(d) ** power
         if total_sum == num:
             armstrong_numbers.append(num)
-    result_str = " ".join(map(str, armstrong_numbers))
-    print(f"Числа Армстронга: {result_str}")
-
-
+    print("Числа Армстронга:", *armstrong_numbers)
 task6_3()
-
-
-
-
