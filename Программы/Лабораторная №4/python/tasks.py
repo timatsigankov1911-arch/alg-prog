@@ -25,7 +25,7 @@ def task2_1():
         print("Произведение цифр: 0")
         print("Количество цифр: 1")
     else:
-        sum = 0
+        sum = 0 
         prod = 1
         count = 0
         while N > 0:

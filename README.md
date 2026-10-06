@@ -26,7 +26,6 @@
 
 **Na1den** — [GitHub](https://github.com/timatsigankov1911-arch)
 
----
 
 <div align="center">
 
