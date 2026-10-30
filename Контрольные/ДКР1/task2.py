@@ -9,4 +9,4 @@ while x<0:
   else:
    y=(x**2)/math.exp(x)
  print(f"{x:.1f} {y:.3f}")
-x+=0.3   
+x+=0.3    

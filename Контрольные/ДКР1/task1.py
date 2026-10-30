@@ -1,10 +1,10 @@
 import math
-x=float(input('введите значение x '))
-if x<-9:
- y=math.log(abs(x))/(abs(x)**(1/3))
+k=float(input('введите значение k '))
+if k<-9:
+ y=math.log(abs(k))/(abs(k)**(1/3))
 else:
- if x>=-2:
-  y=(abs(x)**2)/math.exp(x)
+ if k>=-2:
+  y=(abs(k)**2)/math.exp(k)
  else:
-  y=90*math.log10(abs(x))
+  y=90*math.log10(abs(k))
 print(f"{y:.3f}")
