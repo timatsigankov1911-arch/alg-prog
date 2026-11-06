@@ -28,7 +28,7 @@ end;
 }
 function Max3_1_2(a, b, c: integer): integer;
 var
-  m: integer; { локальная }
+  m: integer;
 begin
   m := a;
   if b > m then m := b;
@@ -73,8 +73,8 @@ end;
 }
 function IsPrime_2_2(n: integer): boolean;
 var
-  i: integer;   { локальная }
-  res: boolean; { локальная }
+  i: integer;   
+  res: boolean; 
 begin
   res := n >= 2;
   i := 2;
@@ -115,7 +115,7 @@ end;
 }
 procedure Swap_3_1(var a, b: integer);
 var
-  temp: integer; { локальная }
+  temp: integer; 
 begin
   temp := a;
   a := b;
@@ -171,7 +171,7 @@ end;
 }
 procedure FillRandom_4_1(var a: array of integer);
 var
-  i: integer; { локальная }
+  i: integer; 
 begin
   for i := 0 to High(a) do
     a[i] := Random(100);
@@ -187,7 +187,7 @@ end;
 }
 function SumArray_4_1(const a: array of integer): integer;
 var
-  i, sum: integer; { локальные }
+  i, sum: integer;
 begin
   sum := 0;
   for i := 0 to High(a) do
@@ -205,7 +205,7 @@ end;
 }
 function MaxArray_4_2(const a: array of integer): integer;
 var
-  i, m: integer; { локальные }
+  i, m: integer; 
 begin
   m := a[0];
   for i := 1 to High(a) do
@@ -223,7 +223,7 @@ end;
 }
 function CountEven_4_3(const a: array of integer): integer;
 var
-  i, k: integer; { локальные }
+  i, k: integer; 
 begin
   k := 0;
   for i := 0 to High(a) do
@@ -265,7 +265,7 @@ end;
 }
 procedure Test_5_3;
 var
-  x: integer; { локальная: за пределами процедуры не видна }
+  x: integer;
 begin
   x := 42;
 end;
@@ -280,8 +280,8 @@ end;
 }
 function Factorial_6_1(n: integer): int64;
 var
-  i: integer; { локальная }
-  f: int64;   { локальная }
+  i: integer; 
+  f: int64;   
 begin
   f := 1;
   for i := 2 to n do
@@ -300,8 +300,8 @@ end;
 }
 function Power_6_2(x: real; n: integer): real;
 var
-  i: integer; { локальная }
-  r: real;    { локальная }
+  i: integer; 
+  r: real;    
 begin
   r := 1;
   for i := 1 to abs(n) do
@@ -346,7 +346,7 @@ end;
 }
 function SumDigits_6_3(n: integer): integer;
 var
-  s: integer; { локальная }
+  s: integer; 
 begin
   s := 0;
   n := abs(n);
