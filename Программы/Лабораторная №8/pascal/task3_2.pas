@@ -6,7 +6,7 @@
     - mn: integer — var — сюда записывается минимум
     - mx: integer — var — сюда записывается максимум
   Локальные переменные: нет
-  Глобальные переменные: нет
+  Глобальные переменные: lo, hi
   Изменяет: mn, mx (через var)
 }
 procedure MinMax_3_2(a, b, c: integer; var mn, mx: integer);

@@ -5,10 +5,10 @@
   Формальные параметры:
     - a, b: integer — var — переменные для обмена
   Локальные переменные: temp
-  Глобальные переменные: нет
+  Глобальные переменные: x, y
   Изменяет: a, b (через var)
 }
-procedure Swap_3_1(var a, b: integer);
+procedure Swap_3_1(a, b: integer);
 var
   temp: integer;
 begin

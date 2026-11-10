@@ -5,7 +5,7 @@
   Формальные параметры:
     - a: array of integer — const — массив, только для чтения
   Локальные переменные: i, m
-  Глобальные переменные: нет
+  Глобальные переменные: data
   Возвращает: integer — наибольший элемент массива
 }
 function MaxArray_4_2(const a: array of integer): integer;

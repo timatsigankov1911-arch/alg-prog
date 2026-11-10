@@ -47,8 +47,10 @@ def div_mod_3_3(a, b):
 def fill_random_4_1(a):
     for i in range(len(a)):
         a[i] = random.randint(0, 99)
+
 def print_array_4_1(a):
     print(*a)
+    
 def sum_array_4_1(a):
     return sum(a)
 
@@ -99,3 +101,5 @@ def sum_digits_6_3(n):
         s += n % 10
         n //= 10
     return s
+
+power_6_2(4,5)
