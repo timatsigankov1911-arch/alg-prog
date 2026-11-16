@@ -1,4 +1,4 @@
-ROOT = -1.784
+root = -1.784
 
 def f(x):
     return 1 * x**3 + (-1) * x**2 + 4 * x + 16
@@ -15,12 +15,12 @@ def simpson(a, b, n):
 
 def error_runge(a, b, n):
     return abs(simpson(a, b, 2 * n) - simpson(a, b, n)) / 15
-
+    
 def input_limits():
     a = float(input("Нижний предел a: "))
     b = float(input("Верхний предел b: "))
-    if a < ROOT:
-        a = ROOT  
+    if a < root:
+        a = root  
     return a, b
 
 def input_n():
@@ -52,6 +52,8 @@ def main():
                 print(f"Погрешность по Рунге: {error_runge(a, b, n):.3e}")
             case "0":
                 break
+            case _:
+                print('Введите значние от 0 до 4')
 
 
 main()
