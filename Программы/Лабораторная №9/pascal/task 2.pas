@@ -1,0 +1,29 @@
+﻿Program tsak2;
+uses GraphABC;
+begin
+  SetWindowSize(1000,700);
+  Moveto(400,600);
+  Lineto(600,600);
+  Lineto(500,200);
+  Lineto(400,600);
+  Circle(500,200,35);
+  Moveto(600,600);
+  Lineto(700,600);
+  Lineto(850,300);
+  Lineto(400,600);
+  Circle(850,300,35);
+  Moveto(400,600);
+  Lineto(300,600);
+  Lineto(150,300);
+  Lineto(600,600);
+  Circle(150,300,35);
+  Floodfill(150,300,clblue);
+  Floodfill(300,500,clblue);
+  Floodfill(850,300,clgreen);
+  Floodfill(600,500,clgreen);
+  Floodfill(500,200,clred);
+  Floodfill(500,400,clred);
+  Floodfill(500,599,clred);
+  Floodfill(550,550,clred);
+  Floodfill(450,550,clred);
+end.
